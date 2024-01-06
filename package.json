@@ -1,0 +1,32 @@
+{
+  "name": "user-crud-express",
+  "version": "1.0.0",
+  "description": "Building a Simple User CRUD API with Express and MongoDB",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-m-prabhat/user-crud-express.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express",
+    "mongodb"
+  ],
+  "author": "Prabhat Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-m-prabhat/user-crud-express/issues"
+  },
+  "homepage": "https://github.com/i-m-prabhat/user-crud-express#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
+}
