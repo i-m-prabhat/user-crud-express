@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/i-m-prabhat/user-crud-express#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongoose": "^8.0.3"
